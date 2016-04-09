@@ -1,0 +1,116 @@
+body ul div nav li {
+	margin:0px; padding:0px;
+	font-family: arial;
+}
+body{
+	width: 800px;
+	margin: 0 auto;
+	font-family: arial;
+}
+ul {
+	list-style-type: none;
+	/*background-color: grey;*/
+	height: 30px;
+	position: absolute;
+	top:0px;
+	right: 15px;
+}
+li {
+	float: left;
+	margin-left: 24px;
+	height: 30px;
+	text-align: center;
+	/*background-color: red;*/
+	line-height: 30px;
+	font-size : 3px;
+	letter-spacing: -0.1px;
+}
+li a { color: #333; }
+li a:hover { color: blue; }
+#moreProduct { 
+	background-color: #3385ff; 
+	color: #ffffff;
+	padding:5px;
+	text-decoration: none;
+}
+
+.main {
+	width: 700px;
+	margin: 50px auto 255px auto;
+	/*background-color: red;*/
+	text-align: center;
+}
+#logo1 {
+	width: 270px;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+#seachText {
+	width: 539px;
+	height: 30px;
+
+}
+#seach { position: relative; }
+#soutu_icons { 			
+	position:absolute;
+	top:15%;
+	right:111px;
+	width:18px;
+	height:16px;
+	background: url(images/soutu_icons.png) no-repeat;
+}
+#seachBut {
+	width: 100px;
+	height: 36px;
+	width: 100px;
+	background-color: #3385ff;
+	border:1px solid #2d78f4;
+	color: white;
+	font-size: 15px;
+}
+
+.footer {
+	width:640px;
+	margin: 70px auto 0px auto;
+	font-size: 3px;
+	color:#999;
+}
+.QRcode {
+	width:310px;
+	float:left;
+}
+.QRcode div {
+	width:122px;
+	float: left;
+	margin-right:33px;
+}
+.QRcode img{
+	width:60px;
+	float:left;
+	margin-right: 10px;
+}
+.QRcode b { color:#666; }
+.infos {
+	width:330px;
+	float:right;
+	/*background-color: red;*/
+	line-height: 1em;
+	position:relative;
+	top:-10px;
+}
+.infos img{
+	width:15px;
+}
+.infos a { color:#999; }
+#ICP {
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+#ga {
+	position:absolute;
+	top:55px;
+	left:0px;
+}
+.about { margin-right: 60px; }
+#jgw { margin-left: 18px; }
